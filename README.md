@@ -1,19 +1,42 @@
-Big-Oh
-======
+scaloid-basic-template
+----------------------
 
-A geeky clone of 2048 for programmers .
-##Achieve Big-Oh of 1 .
+This is a simple Android template for Scaloid.
 
-Order of merging :
-`O(2`<sup>`n`</sup>`)`
-`O(n!)`
-`O(n`<sup>`2`</sup>`)`
-`O(nlogn)`
-`O(nlog`<sup>`*`</sup>`n)`
-`O(n)`
-`O(logn)`
-`O(loglogn)`
-`O(log`<sup>`*`</sup>`n)`
-`O(alpha(n))`
-`O(1)`
-##Enjoy !
+## Prerequisites
+
+* sbt 0.13.0 or above
+* Android SDK
+    * SDK Level 15+
+
+## Build
+
+You can build this project using SBT.
+
+    $ sbt android:package
+
+This will compile the project and generate an APK.
+
+## Generate Project files
+
+### IntelliJ IDEA / Android Studio
+
+    $ sbt gen-idea
+
+**Note**: You should install the Scala plugin from Jetbrains.
+
+### Eclipse
+
+    $ sbt eclipse
+
+## License
+
+Copyright (C) 2014 Christopher Kaster <ikasoki@gmail.com>
+
+Everyone is permitted to copy and distribute verbatim or modified 
+copies of this project.
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+0. You just DO WHAT THE FUCK YOU WANT TO.

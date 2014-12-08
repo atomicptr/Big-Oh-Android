@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scaloid-basic-template_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20141106125736"/>
+	<dependencies>
+		<module organisation="org.scaloid" name="scaloid_2.11">
+			<revision name="3.5-10" status="release" pubdate="20140812130636" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scaloid.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2707" time="0" location="/Users/kasoki/.ivy2/cache/org.scaloid/scaloid_2.11/ivy-3.5-10.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scaloid/scaloid_2.11/3.5-10/scaloid_2.11-3.5-10.pom"/>
+				<caller organisation="default" name="scaloid-basic-template_2.11" conf="compile, runtime" rev="3.5-10" rev-constraint-default="3.5-10" rev-constraint-dynamic="3.5-10" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scaloid_2.11" type="jar" ext="jar" status="no" details="" size="2031424" time="0" location="/Users/kasoki/.ivy2/cache/org.scaloid/scaloid_2.11/jars/scaloid_2.11-3.5-10.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scaloid/scaloid_2.11/3.5-10/scaloid_2.11-3.5-10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.2" status="release" pubdate="20140723083853" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.2/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/kasoki/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.pom"/>
+				<caller organisation="org.scaloid" name="scaloid_2.11" conf="default, compile, runtime, master" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="3.5-10"/>
+				<caller organisation="default" name="scaloid-basic-template_2.11" conf="compile, runtime" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5545300" time="0" location="/Users/kasoki/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
