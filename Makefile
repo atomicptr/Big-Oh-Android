@@ -1,6 +1,6 @@
 run:
 	sbt android:package
-	adb install -r target/android-bin/scaloid-basic-template-debug.apk
+	adb install -r target/android-bin/Big-Oh-debug.apk
 
 clean:
 	sbt clean clean-files

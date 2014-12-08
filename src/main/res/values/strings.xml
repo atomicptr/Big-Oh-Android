@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">scaloid-basic-template</string>
-    <string name="hello_world">Hello Scala!</string>
+    <string name="app_name">Big-Oh</string>
     <string name="action_settings">Settings</string>
 
 </resources>

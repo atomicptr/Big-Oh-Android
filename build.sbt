@@ -2,7 +2,7 @@ import android.Keys._
 
 android.Plugin.androidBuild
 
-name := "scaloid-basic-template"
+name := "Big-Oh"
 
 scalaVersion := "2.11.2"
 
